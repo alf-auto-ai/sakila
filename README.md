@@ -1,29 +1,41 @@
-# Sakila SQL Project
+# 🎬 Netflix-Style Business Analysis (Sakila)
 
-This project uses the Sakila sample database to practice SQL for data analysis and business intelligence.
+This project analyzes the Sakila database as if it were a streaming platform like Netflix.
 
-## 📂 Files
-- sakila-schema.sql → Database structure
-- sakila-data.sql → Sample data
+## 📊 Objective
+Transform raw transactional data into business insights for decision-making.
 
-## ⚙️ How to Run
-1. Open MySQL
-2. Run:
-   SOURCE sakila-schema.sql;
-   SOURCE sakila-data.sql;
+## 🧠 Key Business Questions
+- Who are the most valuable customers?
+- What content drives the most engagement?
+- How does revenue evolve over time?
+- Which categories generate the most revenue?
+- Are customers returning frequently?
 
-## 📊 Business Questions Answered
-- Who are the top customers by revenue?
-- What are the most rented movies?
-- How does revenue change over time?
+## 📈 Key Metrics (KPIs)
+- Total Revenue
+- Monthly Revenue Trend
+- Customer Lifetime Value (proxy)
+- Content Popularity
+- Revenue by Category
+- Customer Retention (proxy)
 
-## 🚀 Skills Demonstrated
-- SQL querying
-- Data aggregation
-- Business analysis
-- Problem solving
+## 📂 Project Structure
+- `/data` → Raw database files
+- `/analysis` → SQL queries for insights
 
-## 📌 Future Improvements
-- Connect to Power BI / Tableau
-- Create dashboards
-- Advanced SQL queries
+## 🛠 Tools Used
+- SQL (MySQL)
+- Data aggregation & joins
+- Business intelligence thinking
+
+## 🚀 Future Improvements
+- Dashboard in Power BI or Tableau
+- Customer segmentation
+- Predictive analysis
+
+## 💡 Business Impact
+This analysis can help:
+- Optimize content strategy
+- Identify high-value customers
+- Improve retention strategies
